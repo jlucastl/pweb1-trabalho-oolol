@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "veiculo": {
+            "id": 1,
+            "cliente": {
+                "id": 1,
+                "nome": "Mariana Lopes",
+                "telefone": "(85) 99999-1111"
+            },
+            "placa": "ABC1D23",
+            "modelo": "Chevrolet Onix",
+            "ano": 2021
+        },
+        "status": "aberta",
+        "servicos": [
+            {
+                "tipo": "revisao",
+                "descricao": "Revisão preventiva",
+                "precoBase": 180,
+                "valorFinal": 270,
+                "nivel": "completa"
+            },
+            {
+                "tipo": "troca_oleo",
+                "descricao": "Troca de óleo 5W-30",
+                "precoBase": 45,
+                "valorFinal": 205,
+                "litros": 4,
+                "precoLitro": 40
+            }
+        ],
+        "total": 475
+    },
+    {
+        "id": 2,
+        "veiculo": {
+            "id": 2,
+            "cliente": {
+                "id": 2,
+                "nome": "Pedro Almeida",
+                "telefone": "(85) 98888-2222"
+            },
+            "placa": "HJK1234",
+            "modelo": "Volkswagen Gol",
+            "ano": 2018
+        },
+        "status": "concluida",
+        "servicos": [
+            {
+                "tipo": "funilaria",
+                "descricao": "Reparo do para-lama",
+                "precoBase": 80,
+                "valorFinal": 350,
+                "horas": 3,
+                "valorHora": 90
+            }
+        ],
+        "total": 350
+    }
+]
