@@ -1,0 +1,6 @@
+# Arquivos locais ou gerados automaticamente
+.DS_Store
+*.log
+.env
+/vendor/
+# O arquivo de exemplo vazio fica no repositório; os registros reais podem ser retirados antes da entrega.
