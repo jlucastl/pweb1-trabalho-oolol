@@ -70,7 +70,6 @@ verificar('Ordem pode ser concluída após incluir serviços', $ordem->getStatus
 recusar('Adicionar serviço após conclusão', fn() => $ordem->adicionarServico($oleo));
 recusar('Concluir a mesma ordem duas vezes', fn() => $ordem->concluir());
 
-// Persistência é testada num arquivo temporário para não alterar os dados do site.
 $arquivoTemp = tempnam(sys_get_temp_dir(), 'oficina_');
 if ($arquivoTemp === false) {
     throw new RuntimeException('Não foi possível preparar o arquivo temporário.');
